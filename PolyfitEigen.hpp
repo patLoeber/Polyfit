@@ -8,7 +8,7 @@
 //  Use the Eigen library for fitting: http://eigen.tuxfamily.org
 //  See https://eigen.tuxfamily.org/dox/group__TutorialLinearAlgebra.html for different methods
 
-#include "Eigen/Dense"
+#include <Eigen/Dense>
 
 template<typename T>
 std::vector<T> polyfit_Eigen(const std::vector<T> &xValues, const std::vector<T> &yValues, const int degree, const std::vector<T>& weights = std::vector<T>(), bool useJacobi = true)

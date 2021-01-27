@@ -15,3 +15,6 @@ https://eigen.tuxfamily.org/dox/group__TutorialLinearAlgebra.html
 Credits:
 
 http://www.vilipetek.com/2013/10/07/polynomial-fitting-in-c-using-boost/
+
+TODO
+- option for building demos as subdirectory
